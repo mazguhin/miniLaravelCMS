@@ -13,3 +13,4 @@
 
 Route::get('/', 'TemplateController@index');
 Route::get('/page/{id}', 'Modules\Front\Page\PageController@showPage');
+Route::get('/comments','Modules\Front\Comment\CommentController@showComments');
